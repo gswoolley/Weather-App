@@ -1,0 +1,54 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  font-size: 20px;
+}
+
+#weatherResults {
+  display: grid;
+}
+
+#weatherInput {
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 150px;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  padding: 15px 20px;
+  width: auto;
+  background: #40a1ce;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 15px;
+  transition: 0.2s ease all;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+input[type="submit"]:active {
+  opacity: 0.4;
+}
